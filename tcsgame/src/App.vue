@@ -1,17 +1,14 @@
 <template>
   <div id="app">
-    <Home />
+    <router-view name="main"></router-view>
+    <router-view name="live2d"></router-view>
   </div>
 </template>
 
 <script>
-import Home from './components/pages/Home'
 
 export default {
-  name: 'app',
-  components: {
-    Home
-  }
+  name: 'app'
 }
 </script>
 
